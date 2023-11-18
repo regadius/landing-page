@@ -108,3 +108,28 @@ h2 {
 .quote-section span {
   align-self: flex-end;
 }
+
+.section-three {
+  background-color: white;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-three-wrapper {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 40em;
+  height: 8em;
+  padding: 5px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side .highlighted {
+  font-weight: bold;
+  font-size: 20px;
+}
+.right-side button {
+  border: 2px solid white;
+}
