@@ -7,10 +7,12 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  padding: 0 250px;
+  padding: 20px 300px;
+  gap: 100px;
 }
 
-.header-nav {
+.header-nav,
+.header-main {
   display: flex;
   justify-content: space-between;
 }
@@ -21,4 +23,37 @@ body {
 .header-links {
   display: flex;
   gap: 25px;
+}
+.main-section {
+  max-width: 346px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.secondary-text,
+.header-links,
+button {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.image-placeholder {
+  flex-shrink: 0;
+  width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+button {
+  background-color: #3882f6;
+  font-weight: bold;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 10px;
 }
