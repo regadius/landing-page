@@ -133,3 +133,9 @@ h2 {
 .right-side button {
   border: 2px solid white;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+}
