@@ -9,3 +9,9 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
