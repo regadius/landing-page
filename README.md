@@ -1,4 +1,4 @@
-# odin-recipes
+# Landing Page
 
 [Live Preview](https://regadius.github.io/landing-page/)
 
